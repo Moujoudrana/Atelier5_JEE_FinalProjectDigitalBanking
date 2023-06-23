@@ -25,9 +25,11 @@ Il est basé sur le framework Spring et vise à simplifier le processus de confi
 
 Parmi ses caractéristiques:
 -
-  Spring Boot intègre un serveur web embarqué, tel que Tomcat.
-  Spring Boot propose des dépendances prédéfinies pour de nombreux frameworks et bibliothèques couramment utilisés, tels que Spring MVC, Spring Data, Hibernate, JPA, JDBC, etc.
-  Spring Boot s'appuie sur le framework Spring et profite de ses fonctionnalités, telles que l'injection de dépendances.
+  -Spring Boot intègre un serveur web embarqué, tel que Tomcat.
+  
+  -Spring Boot propose des dépendances prédéfinies pour de nombreux frameworks et bibliothèques couramment utilisés, tels que Spring MVC, Spring Data, Hibernate, JPA, JDBC, etc.
+  
+  -Spring Boot s'appuie sur le framework Spring et profite de ses fonctionnalités, telles que l'injection de dépendances.
 
 ![image](https://github.com/Moujoudrana/Atelier5_JEE_DigitalBanking/assets/93864104/d60c9514-40eb-4f06-a339-e90cbbc4718f)
 Angular est un framework open-source développé par Google. Il est utilisé pour créer des applications web dynamiques et interactives. Angular est basé sur le langage TypeScript, qui est une extension de JavaScript.
@@ -35,6 +37,8 @@ Angular est largement utilisé pour développer des applications web d'entrepris
 
 Parmi ses caractéristiques:
 -
-  Angular utilise une architecture basée sur des composants. Les composants sont des éléments autonomes de l'application qui encapsulent à la fois le HTML, le CSS et le comportement de l'interface utilisateur.
-  Les services dans Angular sont des classes réutilisables qui fournissent des fonctionnalités spécifiques à travers l'application.
-  Angular propose une liaison de données bidirectionnelle entre les composants et les vues.
+  -Angular utilise une architecture basée sur des composants. Les composants sont des éléments autonomes de l'application qui encapsulent à la fois le HTML, le CSS et le comportement de l'interface utilisateur.
+  
+  -Les services dans Angular sont des classes réutilisables qui fournissent des fonctionnalités spécifiques à travers l'application.
+  
+  -Angular propose une liaison de données bidirectionnelle entre les composants et les vues.
