@@ -1,7 +1,9 @@
 JEE-Activite-5
 -
 On souhaite créer une application qui permet de gérer des comptes bancaires. Chaque compte appartient à un client. 
-Un compte peut subir plusieurs opérations de type DEBIT ou CREDIT. Il existe deux types de comptes : Comptes courants et comptes épargnes
+Un compte peut subir plusieurs opérations de type DEBIT ou CREDIT. Il existe deux types de comptes : Comptes courants et comptes épargnes.
+
+L'application repose sur deux technologies majeures : Spring Boot, un framework Java populaire pour le développement d'applications d'entreprise, et Angular, un framework JavaScript utilisé pour la création d'interfaces utilisateur dynamiques et interactives.
 
 Travail à faire
 -
@@ -77,10 +79,9 @@ Angular CLI version 16.0.1
 
 Installation :
 
+    Bootstrap & Bootstrap-icons : Une bibliothèque open-source de développement front-end pour la conception de sites et d'applications web. Elle fournit des styles CSS prédéfinis, des composants JavaScript et des icônes pour faciliter la création d'interfaces utilisateur esthétiques et responsives.
+
     npm i bootstrap bootstrap-icon
-    
-    npm install -g json-server
-    
     
 Architecture de l'application
 -
@@ -89,15 +90,62 @@ Architecture de l'application
 
 -La couche web joue un rôle essentiel dans la gestion des interactions entre les utilisateurs et l'application. Elle est responsable de la réception des requêtes HTTP, du traitement de ces requêtes et de la génération des réponses correspondantes.
 
+      BankAccountRestAPI : Concerne les comptes bancaires.
+      
+      CustomerRestController : Concerne les clients.
+
 -La couche de service joue un rôle clé dans la gestion de la logique métier de l'application. Elle est responsable de la mise en œuvre des fonctionnalités métier, de la coordination des opérations et de l'interaction avec la couche de persistance et la couche web.
+
+      BankAccountService : Interface qui contient l'ensemble des fonctionnalités métier des comptes et des clients à implementer.
+      
+      BankAccountServiceImpl : Contient l'implementation des méthodes précisées dans l'interface.
 
 -La couche DAO (Data Access Object) est responsable de l'accès aux données et de l'interaction avec la couche de persistance de l'application. Son objectif principal est d'abstraire les détails de l'accès aux données et de fournir une interface cohérente pour effectuer des opérations CRUD (Create, Read, Update, Delete) sur les entités persistantes.
 
+      AccountOperationRepository:Pour effectuer des opérations de persistance sur les operations bancaires.
+
+      BankAccountRepository:Pour effectuer des opérations de persistance sur les comptes bancaires.
+
+      CustomerRepository: Pour effectuer des opérations de persistance sur les clients.
+      
+
 -DTO (Data Transfer Object) est un objet utilisé pour transférer des données entre les différentes couches de l'application, entre la couche de présentation (couche web) et la couche de service.
+
+      AccountHistoryDTO
+
+      AccountOperationDTO
+
+      bankAccountDTO
+
+      CreditDTO
+
+      CurrentBankAccountDTO
+
+      CustomerDTO
+
+      DebitDTO
+
+      SavingBankAccountDTO
+
+      TransferRequestDTO
 
 -Les mappers sont des composants responsables de la conversion et de la transformation des données entre différents formats ou structures.(Entité vers DTO ou l'inverse)
 
+      BankAccountMapperImpl:Pour convertir les objets.    
+
 -Les entités font référence à des objets qui représentent des concepts métier ou des données persistantes dans une base de données.
+
+      AccountOperation:Pour les operations de debit,credit ou transfer.
+
+      BankAccount:Pour les comptes bancaires.
+
+      CurrentAccount:Pour les comptes courants.
+
+      Customer:Pour les clients de la banque.
+
+      SavingAccount:Pour les comptes epargnes.
+
+
 
 L'interface de l'Output et les fonctionnalités implémentées
 -
