@@ -88,6 +88,9 @@ Architecture de l'application
 
 ![image](https://github.com/Moujoudrana/Atelier5_JEE_FinalProjectDigitalBanking/assets/93864104/8d81c06f-487d-4289-8b6e-db47bcb494df)
 
+*Backend*
+-
+
 -La couche web joue un rôle essentiel dans la gestion des interactions entre les utilisateurs et l'application. Elle est responsable de la réception des requêtes HTTP, du traitement de ces requêtes et de la génération des réponses correspondantes.
 
       BankAccountRestAPI : Concerne les comptes bancaires.
@@ -145,6 +148,32 @@ Architecture de l'application
 
       SavingAccount:Pour les comptes epargnes.
 
+*Frontend*
+-
+
+-Les modèles font référence aux structures de données utilisées pour représenter et manipuler les données dans l'application. Les modèles sont généralement des classes TypeScript qui définissent la structure des objets de données et les fonctionnalités associées.
+
+        Account
+
+        Customer
+
+-Les composants sont les éléments de base pour construire une application. Un composant est une combinaison de code HTML, CSS et TypeScript qui définit la logique, l'apparence et le comportement d'une partie spécifique de l'interface utilisateur de l'application.
+
+        accounts:Responsable de l'affichage des opérations bancaires d'un compte précis ainsi que d'effectuer des nouvelles opérations (crédit, débit, transfert).
+
+        customer-accounts: Responsable de l'affichage des comptes bancaires d'un client.
+
+        customers: Responsable de l'affichage de la liste des clients existant, supprimer ou rechercher un client a partir de son nom.
+
+        navbar: Responsable de l'affichage et de la logique de la barre de navigation.
+
+        new-customer: Responsable de l'affichage du formulaire d'ajout d'un nouveau client.
+
+-Les services sont des classes qui fournissent des fonctionnalités réutilisables et partagées au sein de l'application. Ils sont utilisés pour séparer la logique métier et les fonctionnalités communes des composants afin de favoriser la modularité, la réutilisabilité et la maintenabilité du code.
+
+        accounts: Concerne les fonctionnalités métier des comptes bancaires.
+        
+        customer: Concerne les fonctionnalités métier des clients.
 
 
 L'interface de l'Output et les fonctionnalités implémentées
