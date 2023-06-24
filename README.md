@@ -20,6 +20,7 @@ Partie Frontend
 
 
 ![image](https://github.com/Moujoudrana/Atelier5_JEE_FinalProjectDigitalBanking/assets/93864104/9a8bf6c6-cde8-4833-9c9f-a637eb89d7da)
+
 Spring Boot est un framework open source pour le développement d'applications Java.
 Il est basé sur le framework Spring et vise à simplifier le processus de configuration, de déploiement et de développement d'applications Java.
 
@@ -32,6 +33,7 @@ Parmi ses caractéristiques:
   -Spring Boot s'appuie sur le framework Spring et profite de ses fonctionnalités, telles que l'injection de dépendances.
 
 ![image](https://github.com/Moujoudrana/Atelier5_JEE_FinalProjectDigitalBanking/assets/93864104/9d7f0aba-f5d3-4d2f-a058-5bb5b20633d1)
+
 Angular est un framework open-source développé par Google. Il est utilisé pour créer des applications web dynamiques et interactives. Angular est basé sur le langage TypeScript, qui est une extension de JavaScript.
 Angular est largement utilisé pour développer des applications web d'entreprise, des applications de gestion, des tableaux de bord, des applications mobiles, etc. Il est apprécié pour sa performance, sa robustesse et sa capacité à créer des applications complexes et évolutives.
 
