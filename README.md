@@ -1,4 +1,4 @@
-JEE-Activite-6
+JEE-Activite-5
 -
 On souhaite créer une application qui permet de gérer des comptes bancaires. Chaque compte appartient à un client. 
 Un compte peut subir plusieurs opérations de type DEBIT ou CREDIT. Il existe deux types de comptes : Comptes courants et comptes épargnes
