@@ -15,7 +15,7 @@ Partie Backend
 Partie Frontend
 -
 1. Créer un projet Angular avec la commande ng new DigitalBanking
-2. Créer le modele 'Customer' 
+2. Créer le modele 'Customer' et 'Account'
 3. Créer les composants et services
 
 
